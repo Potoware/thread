@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96458c2f-29f8-40b5-b3ca-9ead5236285a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/thread/EjemploExecutor/EjemploScheduleExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/thread/EjemploExecutor/EjemploScheduleExecutorServicePeriod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
       <recent name="com.potoware.thread.ejemplos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploScheduleExecutorService">
-    <configuration name="EjemploExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.potoware.thread.EjemploExecutor.EjemploExecutor" />
-      <module name="thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.potoware.thread.EjemploExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EjemploScheduleExecutorServicePeriod">
     <configuration name="EjemploExecutorFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.thread.EjemploExecutor.EjemploExecutorFuture" />
       <module name="thread" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploScheduleExecutorServicePeriod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.thread.EjemploExecutor.EjemploScheduleExecutorServicePeriod" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.thread.EjemploExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploScheduleExecutorServicePeriod" />
         <item itemvalue="Application.EjemploScheduleExecutorService" />
         <item itemvalue="Application.EjemploExecutorProductorConsumidor" />
         <item itemvalue="Application.EjemploExecutorFuture2" />
         <item itemvalue="Application.EjemploExecutorFuture" />
-        <item itemvalue="Application.EjemploExecutor" />
       </list>
     </recent_temporary>
   </component>
