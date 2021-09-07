@@ -4,7 +4,9 @@ import com.potoware.thread.ejemplos.runnable.ViajeTarea;
 
 public class EjemploInterfaceRunnableJava8 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+        Thread main= Thread.currentThread();
         Runnable viaje = ()-> {
 
             {
@@ -17,12 +19,26 @@ public class EjemploInterfaceRunnableJava8 {
                     }
                 }
                 System.out.println("Finalmente me voy de viaje a "+ Thread.currentThread().getName());
+                System.out.println("main.getState() = " + main.getState());
             }
         };
 
-        new Thread(viaje,"San Andres Islas").start();
-        new Thread(viaje,"Baru").start();
-        new Thread(viaje,"Cartagena").start();
-        new Thread(viaje,"Mexico").start();
+       Thread v1 = new Thread(viaje,"San Andres Islas");
+        Thread v2 =new Thread(viaje,"Baru");
+        Thread v3 =new Thread(viaje,"Cartagena");
+        Thread v4 =new Thread(viaje,"Mexico");
+
+        v1.start();
+        v2.start();
+        v3.start();
+        v4.start();
+        v1.join();
+        v2.join();
+        v3.join();
+        v4.join();
+
+
+      //  Thread.sleep(5);
+        System.out.println(" Continuando con Main"+main.getName());
     }
 }
