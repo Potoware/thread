@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96458c2f-29f8-40b5-b3ca-9ead5236285a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/thread/EjemploExecutor/EjemploExecutorFuture2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/thread/EjemploExecutor/EjemploExecutorProductorConsumidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread/com/potoware/thread/EjemploExecutor/EjemploExecutorFuture2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread/com/potoware/thread/EjemploExecutor/EjemploExecutorFuture2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/potoware/thread/EjemploExecutor/EjemploExecutorFuture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/thread/EjemploExecutor/EjemploExecutorFuture2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +52,7 @@
       <recent name="com.potoware.thread.ejemplos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploExecutorFuture2">
-    <configuration name="EjemploAgendarTareaTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.potoware.thread.ejemplotimer.EjemploAgendarTareaTimer" />
-      <module name="thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.potoware.thread.ejemplotimer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EjemploExecutorProductorConsumidor">
     <configuration name="EjemploAgendarTareaTimerPeriod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.thread.ejemplotimer.EjemploAgendarTareaTimerPeriod" />
       <module name="thread" />
@@ -116,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploExecutorProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.thread.EjemploExecutor.EjemploExecutorProductorConsumidor" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.thread.EjemploExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploExecutorProductorConsumidor" />
         <item itemvalue="Application.EjemploExecutorFuture2" />
         <item itemvalue="Application.EjemploExecutorFuture" />
         <item itemvalue="Application.EjemploExecutor" />
         <item itemvalue="Application.EjemploAgendarTareaTimerPeriod" />
-        <item itemvalue="Application.EjemploAgendarTareaTimer" />
       </list>
     </recent_temporary>
   </component>
