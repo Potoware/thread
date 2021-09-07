@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96458c2f-29f8-40b5-b3ca-9ead5236285a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/thread/ejemplos/runnable/ViajeTarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/thread/ejemplos/EjemploInterfaceRunnableJava8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,10 +31,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.EjemplosInterfaceRunnable">
+  <component name="RunManager" selected="Application.EjemploInterfaceRunnableJava8">
     <configuration name="EjemploExtenderThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.thread.ejemplos.EjemploExtenderThread" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.thread.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploInterfaceRunnableJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.thread.ejemplos.EjemploInterfaceRunnableJava8" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
@@ -61,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploInterfaceRunnableJava8" />
         <item itemvalue="Application.EjemplosInterfaceRunnable" />
         <item itemvalue="Application.EjemploExtenderThread" />
       </list>
